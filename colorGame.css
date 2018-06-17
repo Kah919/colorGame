@@ -1,0 +1,70 @@
+body{
+	background-color: #232323; /*gives a nice black gray like in sublime */
+	margin: 0;
+	font-family: 'montserrat', 'avenir';
+}
+
+.square{
+	background-color: purple;
+	padding-bottom: 30%; /* this is what will make the color show */
+	width: 30%;
+	float: left; /* makes them the same line */
+	margin: 1.66%;
+	border-radius: 15%; /* gives a nice round to the square */
+	transition: background 1.0s; /* targeting the background to transition in 1s */
+	-moz-transition: background 1.0s; /* for mozilla */
+	-webkit-transition: background 1.0s; /* for safari etc */
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto; /* 0 on top and bottom and auto for left right */
+}
+
+h1{
+	text-align: center;
+	color: #4AB2A3;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase; 
+	line-height: 1.1; /* changes the height distance of the words */
+	padding: 20px 0; /* gives the content space between content and box */
+	background-color: #7AD9CA;
+}
+
+#bar{
+	background-color: #4AB2A3;
+	height: 30px;
+	text-align: center;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%; /* makes it fit all the way */
+	font-weight: 700; /* makes the font heavier looking */
+	color: #B6FFF4;
+	letter-spacing: 1px; /* makes the letters space a bit further away */
+	font-size: inherit; /* inherits the font size */
+	transition: all 0.3s; /* element we want to transition and for how long */
+	outline: none;
+}
+
+button:hover {
+	color: #4AB2A3;
+	background-color: #B6FFF4;
+}
+
+#msg{
+	display: inline-block; /* gives it a little space */
+	width: 20%;
+}
+
+.selected{
+	background-color: blue;
+}
+
+#rgb {
+	font-size: 200%;
+}
